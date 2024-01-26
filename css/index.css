@@ -1,0 +1,143 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    background-color: rgb(29, 34, 61);
+}
+
+section .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+#button {
+    height: 5vh;
+    width: 110px;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 5px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section p {
+    color: rgb(0, 183, 255);
+    text-align: center;
+    padding-top: 130px;
+}
+
+section .para {
+    text-align: center;
+    font-size: 55px;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+
+section .para h6 {
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section .buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 6px;
+
+
+
+}
+
+section .buttons #b1 {
+
+    height: 6vh;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+
+    border-radius: 5px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section .buttons #b2 {
+
+    height: 6vh;
+    width: 150px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    border: solid 2px rgb(0, 183, 255);
+    color: rgb(0, 183, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section .icons {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+   
+
+}
+
+section .icons #icon1 {
+    background-color: beige;
+    height: 30vh;
+    width: 300px;
+    margin-left: 190px;
+    flex-wrap: wrap;
+   
+
+}
+
+section .icons #icon2 {
+    background-color: beige;
+    height: 30vh;
+    width: 300px;
+    margin-right: 5px;
+    flex-wrap: wrap;
+   
+}
+
+section .icons #icon3 {
+    color: white;
+    background-color: beige;
+    height: 30vh;
+    width: 300px;
+    margin-right: 250px;
+    flex-wrap: wrap;
+    
+}
+section .navbar .header{
+display: flex;
+justify-content: space-evenly;
+gap: 20px;
+
+
+}
+section .navbar .till{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+
+}
